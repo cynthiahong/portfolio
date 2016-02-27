@@ -1,15 +1,11 @@
-/* function intializedPage(){
-$("#submitBtn").click(updateProject);
-}
-
-function updateProject(e) {
-   var projectID = $('#project').val();
-   $(projectID).animate({
-      width: $('#width').val()
-   });
-
-   var newText = $('#description').val();
-   $(projectID + " .project-description").text(newText);
-}
-
-*/
+$(function() {
+  $('.nav-toggle').on('click', function() {
+    $('.main-navigation').toggleClass('open')
+  });
+});
+$(document).ready(function(){
+	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+		$(this).toggleClass('open');
+    $('.main-navigation'.toggleClass('close'));
+	});
+});
