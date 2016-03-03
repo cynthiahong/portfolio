@@ -15,6 +15,11 @@ header{
   height: 50px;
   z-index: 999;
 }
+
+.head{
+  z-index: 0;
+  position:absolute;
+}
 .site-title{
   margin-left: 60px;
   font-size: 20px;
@@ -46,11 +51,20 @@ nav li {
 
 
 .home-name{
-  position: absolute;
-  top: 200px;
-  left: 225px;
+  position: relative;
+  height:auto;
+  padding:50px;
+
+/*  top: 200px;
+  left: 225px; */
 }
 
+.home-a{
+  background: url('/images/home5.jpg');
+  width:auto;
+  min-height:800px;
+
+}
 .project-text{
   max-width: 800px;
   text-align: left;
@@ -68,7 +82,7 @@ nav li {
   padding-left: 20px;
   padding-right:20px;
   z-index: 2;
-  font-size: 20px;
+  font-size: x-large;
   color:white;
   text-decoration: none;
 }
@@ -100,8 +114,9 @@ nav li {
   top:2px;
 }
 .name{
-  color: #00f7b1; /* or white? */
-  /*color:#4EB1BA; */
+  color: #00f7b1; /* or white?
+  /*color:#4EB1BA;*/
+  padding:20px;
   font-size: 72px;
   /* color:black; */
 }
@@ -132,12 +147,13 @@ filter: grayscale(1);
 }
 
 #connect{
-  padding-top: 30px;
+  padding-top: 20px;
   color: white;
 }
 
-.connect-2{
-
+.project-short{
+  padding-top:20px;
+  padding-bottom: 20px;
 }
 
 .divider{
@@ -155,10 +171,8 @@ filter: grayscale(1);
   border-bottom: 1px solid #00f7b1;
 }
 
-#about-home, #connect, #project-home{
-  padding-top: 20px;
+#about-home,#connect, #project-home{
   font-size: 25px;
-
 }
 
 ul{
@@ -281,4 +295,21 @@ ul{
   transform: rotate(-135deg);
 }
 
+.mypic{
+  float:left;
+  display:block;
+}
+
+.about-description{
+  max-width: 600px;
+
+}
+
+.about{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.name-description{
+
+}
 /** end **/
