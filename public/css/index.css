@@ -1,4 +1,4 @@
-html, body,header, .site-title, .footer, #about{
+html, body,header, .site-title, .footer, #about, .name, .description-1{
   font-family: 'Raleway';
 }
 
@@ -49,6 +49,10 @@ nav li {
   font-weight: 300;
 }
 
+#empty{
+  width: 100%;
+  height:100px;
+}
 
 .home-name{
   position: relative;
@@ -71,8 +75,26 @@ nav li {
   padding:10px;
 }
 
+.project-pdf{
+  color: #333;
+}
+
+.quote{
+  font-size: 50px;
+  width:5px;
+}
+
+.quote-word{
+  font-size:32px;
+}
+
+.quote-2{
+  float:right;
+  font-size: 50px;
+}
+
 .project-description{
-  font-size:20px;
+  font-size:16px;
 }
 
 .btn{
@@ -223,7 +245,7 @@ ul{
   padding: 10px 20px;
   display: block;
 }
-.main-navigation ul a:hover,#nav1:hover, #nav2:hover, #nav3:hover{
+.main-navigation ul a:hover,#nav1:hover, #nav2:hover, #nav3:hover, #nav4:hover{
   background:#black;
   color:#00f7b1;
 }
