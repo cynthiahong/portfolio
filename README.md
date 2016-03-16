@@ -10,3 +10,7 @@ Info
 * CSS files are in 'public/css'
 * Use the layout file ('views/layouts/layout.handlebars') to add extra CSS/Javascript files
 * Make HTML changes in 'views/index.handlebars')
+
+-------
+To view portfolio:
+* https://cynthiahong.herokuapp.com/
